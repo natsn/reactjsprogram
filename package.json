@@ -1,0 +1,31 @@
+{
+  "name": "reactjsprogram",
+  "version": "1.0.0",
+  "description": "http://courses.reactjsprogram.com/courses/reactjsfundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack -w",
+    "clean": "rm -r ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsn/reactjsprogram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natsn/reactjsprogram/issues"
+  },
+  "homepage": "https://github.com/natsn/reactjsprogram#readme",
+  "devDependencies": {
+    "babel-core": "^6.6.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.9.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.14"
+  }
+}
